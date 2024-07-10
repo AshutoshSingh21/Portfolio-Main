@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Personal portfolio of a beginner frontend developer"
+		/>
+		<title>Wojciech Pietraszuk</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			href="./assets/icons/user-solid.svg"
+			type="image/icon type"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="scripts/app.js" type="module" defer></script>
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav__wrapper">
+				<div class="nav__logo">
+					<p>My</p>
+					<p>Portfolio</p>
+				</div>
+				<div class="nav__links-desktop">
+					<a href="#header" class="nav__link-desktop">Home </a>
+					<a href="#aboutme" class="nav__link-desktop">About me </a>
+					<a href="#stack" class="nav__link-desktop">Stack </a>
+					<a href="#projects" class="nav__link-desktop">Projects </a>
+					<a href="#contact" class="nav__link-desktop">Contact </a>
+				</div>
+			</div>
+
+			<div class="nav__burger">
+				<div class="nav__burger-bar"></div>
+			</div>
+
+			<div class="nav__links">
+				<div class="nav__links-container">
+					<a href="#header" class="nav__link"
+						><span class="nav__link">Home</span>
+					</a>
+					<a href="#aboutme" class="nav__link"
+						><span class="nav__link">About me</span>
+					</a>
+					<a href="#stack" class="nav__link"
+						><span class="nav__link">Stack</span>
+					</a>
+					<a href="#projects" class="nav__link"
+						><span class="nav__link">Projects</span>
+					</a>
+					<a href="#contact" class="nav__link"
+						><span class="nav__link">Contact</span>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<header class="header" id="header">
+			<div class="header__box">
+				<h2 class="header__autotyping"></h2>
+				<h1 class="header__title">I'm Ashutosh Kumar Singh, front-end developer</h1>
+				<a href="#contact" class="header__link button">Contact</a>
+			</div>
+			<div class="header__box">
+				<img
+					class="header__img"
+					src="./assets/images/header.svg"
+					alt="The man is programming a website with a favourite cup of tea"
+				/>
+			</div>
+			<img
+				class="header__arrow"
+				src="./assets/images/angles-down-solid.svg"
+				alt="Arrow down"
+			/>
+		</header>
+
+		<main class="main">
+			<section class="aboutme section" id="aboutme">
+				<div class="container">
+					<h2 class="section__title odd">About me</h2>
+					<div class="aboutme__boxes">
+						<div class="aboutme__box">
+							<h3 class="aboutme__box-title">Hi! It's me Ashutosh</h3>
+							<p class="aboutme__box-text">
+								I'm a student of computer science at the Warsaw University of
+								Life Sciences. Currently, I'm in 5th term of engineering
+								studies. My journey with frontend I began in last summer. I'm
+								mostly interesed in new technologies and sports like cycling and
+								running.
+							</p>
+						</div>
+						<div class="aboutme__box">
+							<img
+								class="aboutme__box-img"
+								src="./assets/images/aboutme.svg"
+								alt="developer productivity"
+							/>
+						</div>
+					</div>
+					<div class="aboutme__box-social">
+						<a
+							href="https://github.com/wojtek0123"
+							class="aboutme__box-link"
+							target="_blank"
+							rel="noopener"
+						>
+							<img
+								class="aboutme__box-icon"
+								src="./assets/images/github.svg"
+								alt="github icon"
+							/>
+						</a>
+						<a
+							href="mailto:wojtekpietraszuk@gmail.com"
+							class="aboutme__box-link"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								class="aboutme__box-icon-square"
+								src="./assets/images/envelope-solid.svg"
+								alt="mail icon"
+							/>
+						</a>
+						<a
+							href="https://facebook.com/wojtus.pietraszuk/"
+							class="aboutme__box-link"
+							target="_blank"
+							rel="noopener"
+						>
+							<img
+								class="aboutme__box-icon"
+								src="./assets/images/facebook.svg"
+								alt="facebook icon"
+							/>
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="section stack" id="stack">
+				<div class="container">
+					<h2 class="section__title">Stack</h2>
+					<div class="stack__boxes">
+						<div class="stack__box stack__box--left">
+							<img
+								src="./assets/icons/react-brands.svg"
+								alt="react icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/typescript-brand.svg"
+								alt="TypeScript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/js-brands.svg"
+								alt="JavaScript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/sass-brand.svg"
+								alt="Sass icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/webpack-brand.svg"
+								alt="webpack icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/html5-brands.svg"
+								alt="html5 icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/css3-brands.svg"
+								alt="css3 icon"
+								class="stack__icon"
+							/>
+						</div>
+						<div class="stack__box stack__box--left">
+							<img
+								src="./assets/icons/react-brands.svg"
+								alt="react icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/typescript-brand.svg"
+								alt="TypeScript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/js-brands.svg"
+								alt="JavaScript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/sass-brand.svg"
+								alt="Sass icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/webpack-brand.svg"
+								alt="webpack icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/html5-brands.svg"
+								alt="html5 icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/css3-brands.svg"
+								alt="css3 icon"
+								class="stack__icon"
+							/>
+						</div>
+					</div>
+					<div class="stack__boxes">
+						<div class="stack__box stack__box--right">
+							<img
+								src="./assets/icons/next-js.svg"
+								alt="Nextjs icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/apollo-graphql-1.svg"
+								alt="Apollo graphql icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/graphql-logo-2.svg"
+								alt="Graphql icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/prisma-2.svg"
+								alt="Prisma icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/react-brands.svg"
+								alt="Teact icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/typescript-brand.svg"
+								alt="Typescript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/tailwindcss-icon.svg"
+								alt="TailwindCss icon"
+								class="stack__icon"
+							/>
+						</div>
+						<div class="stack__box stack__box--right">
+							<img
+								src="./assets/icons/next-js.svg"
+								alt="Nextjs icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/apollo-graphql-1.svg"
+								alt="Apollo graphql icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/graphql-logo-2.svg"
+								alt="Graphql icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/prisma-2.svg"
+								alt="Prisma icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/react-brands.svg"
+								alt="Teact icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/typescript-brand.svg"
+								alt="Typescript icon"
+								class="stack__icon"
+							/>
+							<img
+								src="./assets/icons/tailwindcss-icon.svg"
+								alt="TailwindCss icon"
+								class="stack__icon"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section projects" id="projects">
+				<div class="container">
+					<h2 class="section__title odd">Projects</h2>
+					<div class="projects__boxes">
+						<div class="projects__box">
+							<h3 class="projects__project-title">Project 1</h3>
+							<h3 class="projects__project-title">
+								Job for devs
+							</h3>
+							<div class="projects__box-container">
+								<div class="projects__box--left">
+									<img class="projects__box-img" src="./assets/images/home-job-for-devs.png" alt="Screen shot of Movie or TV series search app">
+									<div class="projects__box-links-desktop">
+										<a href="https://job-for-devs.vercel.app" rel="noopener" target="_blank" class="projects__box-link-desktop">LIVE</a>
+										<a
+											href="https://github.com/wojtek0123/job-for-devs"
+											class="projects__box-link-desktop"
+											target="_blank"
+											rel="noopener"
+										>
+											<img
+												src="./assets/images/github.svg"
+												alt="Github"
+												class="projects__box-link-img-desktop"
+											/>
+										</a>
+									</div>
+								</div>
+								<div class="projects__box-links-mobile">
+									<a href="https://job-for-devs.vercel.app" rel="noopener" target="_blank" class="projects__box-link-mobile">LIVE</a>
+									<a
+										href="https://github.com/wojtek0123/job-for-devs"
+										class="projects__box-link-mobile"
+										target="_blank"
+										rel="noopener"
+									>
+										<img
+											src="./assets/images/github.svg"
+											alt="Github"
+											class="projects__box-link-img-mobile"
+										/>
+									</a>
+								</div>
+								<div class="projects__box--right">
+									<p class="projects__box-text projects__box-text--stack">
+										NextJS, TypeScript, GraphQL, Apollo, Prisma, Tailwind, Next-auth
+									</p>
+									<p class="projects__box-text">
+										Fullstack application for developers who want to find a job or hire someone.
+									</p>
+									<p class="projects__box-text">
+										User can: login, add new offer, apply for existing offer, see applications for his offer, see his applications on other people offers and his posted offers, filter offers, change name in profile name
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="projects__box">
+							<h3 class="projects__project-title">Project 2</h3>
+							<h3 class="projects__project-title">
+								REST Countries API
+							</h3>
+							<div class="projects__box-container">
+								<div class="projects__box--left">
+									<img class="projects__box-img" src="./assets/images/home-rest-countries-api.png" alt="Screen shot of rest countries app">
+									<div class="projects__box-links-desktop">
+										<a href="https://rest-countries-api-sage.vercel.app/" rel="noopener" target="_blank" class="projects__box-link-desktop">LIVE</a>
+										<a
+											href="https://github.com/wojtek0123/rest-countries-api"
+											class="projects__box-link-desktop"
+											target="_blank"
+											rel="noopener"
+										>
+											<img
+												src="./assets/images/github.svg"
+												alt="Github"
+												class="projects__box-link-img-desktop"
+											/>
+										</a>
+									</div>
+								</div>
+								<div class="projects__box-links-mobile">
+									<a href="https://rest-countries-api-sage.vercel.app/" rel="noopener" target="_blank" class="projects__box-link-mobile">LIVE</a>
+									<a
+										href="https://github.com/wojtek0123/rest-countries-api"
+										class="projects__box-link-mobile"
+										target="_blank"
+										rel="noopener"
+									>
+										<img
+											src="./assets/images/github.svg"
+											alt="Github"
+											class="projects__box-link-img-mobile"
+										/>
+									</a>
+								</div>
+								<div class="projects__box--right">
+									<p class="projects__box-text projects__box-text--stack">
+										React, TypeScript, Rest api
+									</p>
+									<p class="projects__box-text">
+										Frontend mentor challenge. App helps to find out more about countries.
+									</p>
+									<p class="projects__box-text">
+										User can search by country name and the region. Available countries details: native name, population, region, sub region, capital, border countries, languages and currencies.
+									</p>
+								</div>
+							</div>
+					</div>
+					<div class="projects__box">
+						<h3 class="projects__project-title">Project 3</h3>
+						<h3 class="projects__project-title">
+							Rock, paper, scissors, lizard, spock
+						</h3>
+						<div class="projects__box-container">
+							<div class="projects__box--left">
+								<img class="projects__box-img" src="./assets/images/rock-paper-scissors-lizard-and-spock-game.png" alt="Screen shot of Movie or TV series search app">
+								<div class="projects__box-links-desktop">
+									<a href="https://rock-paper-scissors-lizard-spock-react.vercel.app/" rel="noopener" target="_blank" class="projects__box-link-desktop">LIVE</a>
+									<a
+										href="https://github.com/wojtek0123/rock-paper-scissors-lizard-spock-react"
+										class="projects__box-link-desktop"
+										target="_blank"
+										rel="noopener"
+									>
+										<img
+											src="./assets/images/github.svg"
+											alt="Github"
+											class="projects__box-link-img-desktop"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="projects__box-links-mobile">
+								<a href="https://rock-paper-scissors-lizard-spock-react.vercel.app/" rel="noopener" target="_blank" class="projects__box-link-mobile">LIVE</a>
+								<a
+									href="https://github.com/wojtek0123/rock-paper-scissors-lizard-spock-react"
+									class="projects__box-link-mobile"
+									target="_blank"
+									rel="noopener"
+								>
+									<img
+										src="./assets/images/github.svg"
+										alt="Github"
+										class="projects__box-link-img-mobile"
+									/>
+								</a>
+							</div>
+							<div class="projects__box--right">
+								<p class="projects__box-text projects__box-text--stack">
+									React, TypeScript
+								</p>
+								<p class="projects__box-text">
+									Expanded version of rock, paper, scissors game.
+								</p>
+								<p class="projects__box-text">
+									The rules are the same like in normal rock, paper, scissors but in this version are two additional signs. The image in rules on the game page will explain rules more accurate.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="projects__box">
+						<h3 class="projects__project-title">Project 4</h3>
+						<h3 class="projects__project-title">
+							Movie or TV series search app
+						</h3>
+						<div class="projects__box-container">
+							<div class="projects__box--left">
+								<img class="projects__box-img" src="./assets/images/movie-search-app.png" alt="Screen shot of Movie or TV series search app">
+								<div class="projects__box-links-desktop">
+									<a href="https://movie-search-wojtek.netlify.app" target="_blank" rel="noopener" class="projects__box-link-desktop">LIVE</a>
+									<a
+										href="https://github.com/wojtek0123/movie-search-react"
+										class="projects__box-link-desktop"
+										target="_blank"
+										rel="noopener"
+									>
+										<img
+											src="./assets/images/github.svg"
+											alt="Github"
+											class="projects__box-link-img-desktop"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="projects__box-links-mobile">
+								<a href="https://movie-search-wojtek.netlify.app" target="_blank" rel="noopener" class="projects__box-link-mobile">LIVE</a>
+								<a
+									href="https://github.com/wojtek0123/movie-search-react"
+									class="projects__box-link-mobile"
+									rel="noopener"
+									target="_blank"
+								>
+									<img
+										src="./assets/images/github.svg"
+										alt="Github"
+										class="projects__box-link-img-mobile"
+									/>
+								</a>
+							</div>
+							<div class="projects__box--right">
+								<p class="projects__box-text projects__box-text--stack">
+									React, TypeScript, React Router, SASS
+								</p>
+								<p class="projects__box-text">
+									App created using react library and TypeScript. App give
+									possibility to sign in and out, save movies on watchlist and
+									search movies and tv series.  
+								</p>
+								<p class="projects__box-text">
+									All data are from IMDB API. In
+									movie details you can see short description of plot,
+									similars movies or tv series and actors.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="projects__box">
+						<h3 class="projects__project-title">Project 5</h3>
+						<h3 class="projects__project-title">
+							Memory game app
+						</h3>
+						<div class="projects__box-container">
+							<div class="projects__box--left">
+								<img class="projects__box-img" src="./assets/images/memory-game.png" alt="Screen shot of memory game app">
+								<div class="projects__box-links-desktop">
+									<a href="https://memory-game-wojtek.netlify.app" target="_blank" 
+									rel="noopener" class="projects__box-link-desktop">LIVE</a>
+									<a
+										href="https://github.com/wojtek0123/memory-game-react"
+										class="projects__box-link-desktop"
+										target="_blank"
+										rel="noopener"
+									>
+										<img
+											src="./assets/images/github.svg"
+											alt="Github"
+											class="projects__box-link-img-desktop"
+										/>
+									</a>
+								</div>
+							</div>
+							<div class="projects__box-links-mobile">
+								<a href="https://memory-game-wojtek.netlify.app" target="_blank" 
+								rel="noopener" class="projects__box-link-mobile">LIVE</a>
+								<a
+									href="https://github.com/wojtek0123/movie-search-react"
+									class="projects__box-link-mobile"
+									target="_blank"
+									rel="noopener"
+								>
+									<img
+										src="./assets/images/github.svg"
+										alt="Github"
+										class="projects__box-link-img-mobile"
+									/>
+								</a>
+							</div>
+							<div class="projects__box--right">
+								<p class="projects__box-text projects__box-text--stack">
+									React, JavaScript, Redux
+								</p>
+								<p class="projects__box-text">
+									This is a standard memory game. You have to find two cards with the same color. App has timer and steps counter. 
+								</p>
+								<p class="projects__box-text">
+									After game, you can see how much time and how many steps you needed to find all colors. There is also a leaderboard which show a top ten results.
+								</p>
+							</div>
+						</div>
+				</div>
+				</div>
+				<div class="projects__box--link-see-more">
+					<a href="https://github.com/wojtek0123?tab=repositories" rel="noopener" class="projects__box--button">
+						See more
+					</a>
+				</div>
+			</section>
+
+			<section class="section contact" id="contact">
+				<div class="container">
+					<h2 class="section__title">Contact</h2>
+					<form
+						action="https://formsubmit.co/c94e1eed968e8af34282467c031a69b1"
+						method="POST"
+						class="contact__form"
+					>
+						<input
+							class="contact__email contact__input"
+							type="email"
+							placeholder="your email"
+							pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+							required
+						/>
+						<small class="contact__email-warn warning"></small>
+						<input
+							class="contact__subject contact__input"
+							type="hidden"
+							name="_subject"
+							value="Rekrutacja"
+							placeholder="subject"
+							required
+						/>
+						<small class="contact__subject-warn warning"></small>
+						<textarea
+							class="contact__message contact__input"
+							placeholder="message"
+							name="message"
+							required
+						></textarea>
+						<small class="contact__message-warn warning"></small>
+						<button class="contact__submit button" type="submit">Submit</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__social">
+					<a
+						href="https://github.com/wojtek0123"
+						target="_blank"
+						rel="noopener"
+					>
+						<img
+							class="footer__img"
+							src="./assets/images/github.svg"
+							alt="github icon"
+						/>
+					</a>
+					<a
+						href="mailto:wojtekpietraszuk@gmail.com"
+						target="_blank"
+						rel="noopener"
+					>
+						<img
+							class="footer__img-square"
+							src="./assets/images/envelope-solid.svg"
+							alt="envelope icon"
+						/>
+					</a>
+
+					<a
+						href="https://facebook.com/wojtus.pietraszuk/"
+						target="_blank"
+						rel="noopener"
+					>
+						<img
+							class="footer__img"
+							src="./assets/images/facebook.svg"
+							alt="facebook icon"
+						/>
+					</a>
+				</div>
+				<p class="footer__text">as705gkp@gmail.com</p>
+				<p class="footer__text">Ashutosh Kumar Singh</p>
+			</div>
+		</footer>
+	</body>
+</html>
